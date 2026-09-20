@@ -93,8 +93,6 @@ The focus is on time-dependent routing, capacity reservation, telemetry prioriti
 
 ## Policy benchmark
 
-The project now includes a deterministic A/B/C experiment rather than relying only on a visual demo.
-
 Three policies receive the **same 180-packet workload and the same finite contact plan**:
 
 - `Immediate Route` — packet must have a complete active route at generation time.
@@ -118,5 +116,3 @@ On Windows you can also double-click:
 ```text
 run-benchmark.bat
 ```
-
-Important: the benchmark numbers are **simulation results**, not NASA performance claims. The purpose is to make routing policies testable under identical synthetic conditions.
